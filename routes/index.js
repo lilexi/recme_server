@@ -84,4 +84,11 @@ router.post('/likeDELETE', function (req, res) {
   });
 });
 
+router.post('/postsID', function(req, res) {
+  console.log(req.body);
+  connection.query(`SELECT * FROM content_db where id = ${req.body.id}`, function (err, data) {
+    (err)? res.send(err):res.json({posts :data});
+  })
+});
+
 module.exports = router;
