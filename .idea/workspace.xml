@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd80f49-4011-4612-90c9-7f5e2667206b" name="Default Changelist" comment="recme &gt; add: r_menu, db /w axios on feed page and more simple changes">
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/Post_id/header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/Post_id/header/profile/profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.modules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/header/header.modules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/header/profile/profile_cont.modules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.modules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/comment-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/create_post_ico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/likeOFF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/likeON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/likeON.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/ling_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/ling_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/link_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/menu_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/menu_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/menu_icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/menu_post_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/r_cr_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/r_cr_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/text_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/text_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/video_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/assets/video_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/containers/auth/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/store/actions/actionTypes/authTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/store/actions/authorization/authaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/store/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/store/reducers/authorization/auth.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/babylon" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/cleancss" afterDir="false" />
@@ -5011,32 +5024,32 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/menu/menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/menu/menu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/components/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/post/post.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/post/post.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/header.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_id/header/header.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/header/profile/profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_id/header/profile/profile_cont.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/posts/posts.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/right_menu/Right_menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/right_menu/right_menu.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/right_menu.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/search/search.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/search/search.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/header.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/header/header.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5076,6 +5089,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="recme: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="recme@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="recme: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="content_db: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -5085,46 +5105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <marker date="1560111946740" expanded="true" signature="1673:1695" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../recme/src/components/post/Post.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
-              <folding>
-                <element signature="e#30#69#0" expanded="true" />
-                <element signature="n#!!block;n#constructor#0;n#Like#0" />
-                <element signature="e#1225#1358#0" />
-                <element signature="e#1387#2245#0" />
-                <element signature="e#1571#1617#0" />
-                <element signature="e#1644#2079#0" />
-                <element signature="e#2113#2172#0" />
-                <element signature="e#2178#2238#0" />
-                <element signature="e#2271#3537#0" />
-                <element signature="e#2815#2874#0" />
-                <element signature="e#2809#2868#0" />
-                <element signature="e#3420#3479#0" />
-                <element signature="e#3906#4034#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+            <state relative-caret-position="177">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -5132,38 +5116,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="32adeb8e-ddb2-4684-80bc-8b1fb49a85b0">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/content_db">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="32adeb8e-ddb2-4684-80bc-8b1fb49a85b0">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_3.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -5172,47 +5133,62 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../recme" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/db.js" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.modules.css" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_1.sql" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/right_menu/Right_menu.jsx" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql" />
-        <option value="$PROJECT_DIR$/views/index.pug" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/right_menu/Trand/Trands.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/posts/Posts.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.modules.css" />
-        <option value="$PROJECT_DIR$/../recme/src/App.css" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/header/profile/profile.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/header/Header.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.modules.css" />
-        <option value="$PROJECT_DIR$/../recme/src/index.js" />
-        <option value="$PROJECT_DIR$/../recme/src/components/menu/menu.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/App.js" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css" />
         <option value="$PROJECT_DIR$/../recme/src/components/post/post.modules.css" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_4.sql" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_5.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_3.sql" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post/Post_page.jsx" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_6.sql" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_id/Post/Post_page.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/PostID/postID.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/right_menu.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/header/Header.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/menu/menu.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_7.sql" />
+        <option value="$PROJECT_DIR$/../recme/src/store/actions/actionTypes/actionTypes.js" />
+        <option value="$PROJECT_DIR$/../recme/src/store/actions/index.js" />
+        <option value="$PROJECT_DIR$/../recme/src/App.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_1.sql" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/auth/Auth.js" />
+        <option value="$PROJECT_DIR$/../recme/src/store/reducers/authorization/auth.js" />
+        <option value="$PROJECT_DIR$/../recme/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/../recme/package.json" />
+        <option value="$PROJECT_DIR$/../recme/src/store/actions/authorization/authaction.js" />
         <option value="$PROJECT_DIR$/../recme/src/components/post/Post.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/header/header.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/components/search/search.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_8.sql" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" />
       </list>
     </option>
   </component>
@@ -5226,7 +5202,53 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Post_page_from_id" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
@@ -5234,9 +5256,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.11.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recme/src/containers/Post_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recme/src/containers" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -5245,9 +5268,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../recme/src/containers" />
+      <recent name="$PROJECT_DIR$/../recme/src/containers/Create_post" />
+      <recent name="$PROJECT_DIR$/../recme/src/components/PostID" />
       <recent name="$PROJECT_DIR$/../recme/src/containers/Post_id" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../recme/src/containers/Post_id" />
       <recent name="$PROJECT_DIR$/../recme/src/containers/main_page" />
       <recent name="$PROJECT_DIR$/../recme/src/containers/right_menu/Trand" />
     </key>
@@ -5264,31 +5291,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.Server: start">
+    <configuration name="Chrome : build_for_redux" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../recme/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="Chrome : build_for_redux" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="Client: start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../recme/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="Client: start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server: start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="Server: start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.bin/www" />
+      <item itemvalue="npm.Chrome : build_for_redux" />
+      <item itemvalue="npm.Client: start" />
+      <item itemvalue="npm.Server: start" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.Chrome : build_for_redux" />
+        <item itemvalue="npm.Server: start" />
+        <item itemvalue="npm.Client: start" />
       </list>
     </recent_temporary>
   </component>
@@ -5314,7 +5358,9 @@
       <workItem from="1559783463030" duration="20000" />
       <workItem from="1559783500882" duration="160000" />
       <workItem from="1559916222325" duration="42132000" />
-      <workItem from="1560095207918" duration="10087000" />
+      <workItem from="1560095207918" duration="25656000" />
+      <workItem from="1560433563777" duration="17593000" />
+      <workItem from="1560522286457" duration="28450000" />
     </task>
     <task id="LOCAL-00001" summary="recme &gt; add: r_menu, db /w axios on feed page and more simple changes">
       <created>1559767762991</created>
@@ -5330,11 +5376,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559768963938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="recme &gt; like, trands and simple changes">
+      <created>1560112764761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560112764761</updated>
+    </task>
+    <task id="LOCAL-00004" summary="recme &gt; add: navigations and link | cr: create page &amp; post page">
+      <created>1560118352956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560118352956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95476000" />
+    <option name="totallyTimeSpent" value="157088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5351,19 +5411,19 @@
     <layout>
       <window_info id="DB Browser" order="0" weight="0.32967034" />
       <window_info id="Favorites" order="1" sideWeight="0.50217706" side_tool="true" weight="0.18498169" />
-      <window_info id="npm" order="2" sideWeight="0.50296736" side_tool="true" weight="0.22015405" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49703264" weight="0.22015405" />
+      <window_info id="npm" order="2" sideWeight="0.2759315" side_tool="true" weight="0.20952381" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.72406846" visible="true" weight="0.2225" />
       <window_info id="Structure" order="4" sideWeight="0.5020576" side_tool="true" weight="0.18485238" />
-      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.6843712" weight="0.21046229" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.6843712" weight="0.5516014" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.31923464" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.31562883" side_tool="true" weight="0.14199395" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.22736625" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.38809523" side_tool="true" weight="0.36417556" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.5206445" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49940476" weight="0.4939173" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.61190474" visible="true" weight="0.15776987" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39976275" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -5371,7 +5431,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24" />
+      <window_info anchor="right" id="Database" order="3" weight="0.261875" />
     </layout>
     <layout-to-restore>
       <window_info id="DB Browser" order="0" weight="0.32967034" />
@@ -5445,7 +5505,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recme &gt; add: r_menu, db /w axios on feed page and more simple changes" />
     <MESSAGE value="recme_server &gt; init" />
-    <option name="LAST_COMMIT_MESSAGE" value="recme_server &gt; init" />
+    <MESSAGE value="recme &gt; like, trands and simple changes" />
+    <MESSAGE value="recme &gt; add: navigations and link | cr: create page &amp; post page" />
+    <option name="LAST_COMMIT_MESSAGE" value="recme &gt; add: navigations and link | cr: create page &amp; post page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5459,686 +5521,415 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ad35b694-e5e6-4896-a392-958bdebb8773">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users_feed.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_7.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users_feed">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ad35b694-e5e6-4896-a392-958bdebb8773">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/sergej/Desktop/Learning/recme_project/recme">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/../recme</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/App.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/App.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/App.js#App.css#27;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#Header#55;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#Posts#108;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#R_menu#158;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#React#7;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/App.test.js#App#68;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.test.js#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.test.js#ReactDOM#34;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/App.test.tsx#App#68;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/App.test.tsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/App.test.tsx#ReactDOM#34;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/App.tsx#App.css#58;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/App.tsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/App.tsx#logo#34;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/Group.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/Header.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Menu#113;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Profile#213;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Search#160;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#header.modules.css#263;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#logo#48;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/post/Post.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#cat_logo#63;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#comment_logo#163;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#likeOFF#115;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#post.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/posts/Posts.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#Post#104;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#article_logo#251;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#axios#47;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#comment_logo#356;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#likeOFF#151;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#link_logo#305;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#posts.modules.css#67;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#video_logo#198;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/right_menu/Right_menu.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Create_post#81;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Randomizer#151;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Trands#220;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#right_menu.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/avatar.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@babel/parser/typings/babel-parser.d.ts#ParserOptions#666;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/prop-types/checkPropTypes.js</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/child_process.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/child_process.d.ts#Pipe#144;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/child_process.d.ts#Readable#126;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/child_process.d.ts#Stream#136;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/child_process.d.ts#Writable#116;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/child_process.d.ts#events#44;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/child_process.d.ts#net#82;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/cluster.d.ts#child#38;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/cluster.d.ts#events#82;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/cluster.d.ts#net#120;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/comment-logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/create_post_ico.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#createpost_comp.modules.css#27;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#icon#88;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#img#140;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#logo#184;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/crypto.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/crypto.d.ts#stream#37;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/dgram.d.ts#AddressInfo#38;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/dgram.d.ts#dns#75;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/dgram.d.ts#events#107;</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/dns.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/dns.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/domain.d.ts#events#37;</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/events.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/events.d.ts</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/fs.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/fs.d.ts#URL#111;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/fs.d.ts#events#71;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/fs.d.ts#stream#33;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/header.modules.css</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/http.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/http.d.ts#NetServer#152;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http.d.ts#Socket#144;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http.d.ts#URL#113;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http.d.ts#events#35;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http.d.ts#stream#73;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/http2.d.ts#Http1IncomingHttpHeaders#241;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#IncomingMessage#311;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#OutgoingHttpHeaders#290;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#ServerResponse#328;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#events#36;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#fs#74;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#net#104;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#stream#136;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#tls#174;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/http2.d.ts#url#206;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/https.d.ts#URL#142;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/https.d.ts#events#68;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/https.d.ts#http#106;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/https.d.ts#tls#36;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/index.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/index.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/vfile/index.d.ts#Unist#331;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/vfile/index.d.ts#vfileMessage#363;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/yargs/index.d.ts#Argv#2001;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/babel__core/index.d.ts#GeneratorOptions#509;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__core/index.d.ts#NodePath#581;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__core/index.d.ts#ParserOptions#700;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__core/index.d.ts#Visitor#572;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__core/index.d.ts#t#663;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__core/index.d.ts#template#623;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__core/index.d.ts#traverse#560;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/istanbul-reports/index.d.ts#Context#292;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-reports/index.d.ts#CoverageSummary#366;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-reports/index.d.ts#FileWriter#307;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-reports/index.d.ts#Node#301;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-reports/index.d.ts#Visitor#319;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@babel/types/lib/index.d.ts#Expression#43393;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@babel/types/lib/index.d.ts#File#8165;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@babel/types/lib/index.d.ts#Program#11106;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@babel/types/lib/index.d.ts#Statement#44916;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/istanbul-lib-report/index.d.ts#Context#766;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-report/index.d.ts#CoverageMap#295;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-report/index.d.ts#CoverageSummary#322;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-report/index.d.ts#FileCoverage#308;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-report/index.d.ts#FileWriter#1006;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-report/index.d.ts#Node#1293;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-report/index.d.ts#Visitor#1867;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/babel__template/index.d.ts#Expression#499;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__template/index.d.ts#File#511;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__template/index.d.ts#ParserOptions#452;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__template/index.d.ts#Program#517;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__template/index.d.ts#Statement#526;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/unist/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/istanbul-lib-coverage/index.d.ts#CoverageMap#859;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-coverage/index.d.ts#CoverageSummary#476;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/istanbul-lib-coverage/index.d.ts#FileCoverage#2069;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/babel__generator/index.d.ts#GeneratorOptions#475;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__generator/index.d.ts#t#446;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/babel__traverse/index.d.ts#NodePath#5087;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__traverse/index.d.ts#Visitor#4603;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/babel__traverse/index.d.ts#t#512;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/vfile-message/index.d.ts#Unist#296;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/axios/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template/public/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/public/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/public/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/index.js#react-dom.development.js#1318;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/index.js#react-dom.production.min.js#1244;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react/index.js#react.development.js#149;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react/index.js#react.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/scheduler/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/object-assign/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/index.js#App#90;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#ReactDOM#34;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#index.css#61;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#serviceWorker#115;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/index.tsx#App#90;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/index.tsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/index.tsx#ReactDOM#34;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/index.tsx#index.css#61;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-scripts/template-typescript/src/index.tsx#serviceWorker#115;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/inspector.d.ts#EventEmitter#345;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/likeOFF.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/ling_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/menu/menu.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#icon#76;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#icon2#122;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#menu.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/menu/menu.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/menu_icon.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/menu_icon_2.svg</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/net.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/net.d.ts#dns#110;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/net.d.ts#events#72;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/net.d.ts#stream#34;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/perf_hooks.d.ts#AsyncResource#43;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/post/post.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/posts/posts.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/profile/profile.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/profile/profile.jsx#profile.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#Profile#83;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#avatar#141;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#profile_cont.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/profiling.js#react-dom.development.js#1317;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/profiling.js#react-dom.profiling.min.js#1244;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/r_cr_img.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/r_cr_logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/randomizer_comp.jsx#rand_comp.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/lib/react-app.d.ts#React#720;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-server.browser.development.js#React#396;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.browser.development.js#_assign#356;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.browser.development.js#checkPropTypes#426;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-server.browser.development.js#react#393;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#p#279;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#q#306;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-server.browser.production.min.js#react#361;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-server.node.development.js#React#393;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.node.development.js#_assign#353;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.node.development.js#checkPropTypes#423;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.node.development.js#stream#482;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#aa#322;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#p#276;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#q#303;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-test-utils.development.js#React#392;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-test-utils.development.js#ReactDOM#422;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-test-utils.development.js#_assign#352;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-test-utils.development.js#index.js#407;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/umd/react-dom-test-utils.development.js#react#389;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#g#275;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#l#302;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#m#321;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-test-utils.production.min.js#index.js#374;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/umd/react-dom-test-utils.production.min.js#react#357;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#React#355;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#_assign#385;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#checkPropTypes#425;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#scheduler#484;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.development.js#tracing#522;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-unstable-fire.development.js#react#392;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js#aa#325;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js#n#345;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.production.min.js#r#372;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-unstable-fire.production.min.js#react#410;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#aa#324;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#n#344;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#r#371;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-fire.profiling.min.js#v#394;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-unstable-fire.profiling.min.js#react#408;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.development.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.development.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.production.min.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#ReactDOM#370;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#_assign#407;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js#index.js#407;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js#react#429;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#k#293;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#l#316;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js#index.js#375;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js#react#396;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom.development.js#React#341;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.development.js#_assign#371;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.development.js#checkPropTypes#411;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.development.js#scheduler#470;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.development.js#tracing#508;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom.development.js#react#378;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom.production.min.js#aa#311;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.production.min.js#n#331;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.production.min.js#r#358;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom.production.min.js#react#396;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/cjs/react-dom.profiling.min.js#aa#310;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.profiling.min.js#n#330;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.profiling.min.js#r#357;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/cjs/react-dom.profiling.min.js#v#380;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/umd/react-dom.profiling.min.js#react#394;</node>
-            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react/cjs/react.development.js#_assign#337;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react/cjs/react.development.js#checkPropTypes#377;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react/cjs/react.production.min.js#k#260;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/readline.d.ts#events#39;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/readline.d.ts#stream#77;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/repl.d.ts#AsyncCompleter#59;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/repl.d.ts#Completer#48;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/repl.d.ts#Context#106;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/repl.d.ts#InspectOptions#140;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/repl.d.ts#Interface#37;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/right_menu/right_menu.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/search/search.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/search/search.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/search/search.jsx#search.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/search/search.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/server.browser.js#react-dom-server.browser.development.js#168;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/server.browser.js#react-dom-server.browser.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/server.js#server.node.js#32;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/server.node.js#react-dom-server.node.development.js#165;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/server.node.js#react-dom-server.node.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/serviceWorker.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-scripts/template-typescript/src/serviceWorker.ts</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/stream.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/stream.d.ts#events#37;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/test-utils.js#react-dom-test-utils.development.js#164;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/test-utils.js#react-dom-test-utils.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/text_logo.png</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/tls.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/tls.d.ts#crypto#34;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/tls.d.ts#dns#72;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/tls.d.ts#net#104;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/tls.d.ts#stream#136;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/scheduler/tracing.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trand_item_comp.jsx#trand_item.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trands_comp.jsx#TrandItem#69;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trands_comp.jsx#trands_comp.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/tty.d.ts#net#34;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/unstable-fizz.browser.js#react-dom-unstable-fizz.browser.development.js#175;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/unstable-fizz.browser.js#react-dom-unstable-fizz.browser.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/unstable-fizz.js#unstable-fizz.node.js#32;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/unstable-fizz.node.js#react-dom-unstable-fizz.node.development.js#172;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/unstable-fizz.node.js#react-dom-unstable-fizz.node.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.development.js#182;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.production.min.js#79;</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.11.0/node-typings/node_modules/@types/node/url.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/url.d.ts#ParsedUrlQuery#36;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/url.d.ts#ParsedUrlQueryInput#52;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/v8.d.ts#Readable#35;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/video_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/worker_threads.d.ts#Context#47;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/worker_threads.d.ts#EventEmitter#81;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/worker_threads.d.ts#Readable#124;/Users/sergej/Desktop/Learning/recme_project/recme/node_modules/@types/node/worker_threads.d.ts#Writable#134;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/yargs/yargs.d.ts#Argv#9;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/@types/node/zlib.d.ts#stream#35;</node>
-            <node x="" y="">%PUBLIC_URL%/favicon.ico</node>
-            <node x="" y="">%PUBLIC_URL%/manifest.json</node>
-            <node x="" y="">AsyncResource;</node>
-            <node x="" y="">EventEmitter;</node>
-            <node x="" y="">IncomingHttpHeaders;IncomingMessage;OutgoingHttpHeaders;ServerResponse;</node>
-            <node x="" y="">AddressInfo;Server;Socket;</node>
-            <node x="" y="">ParsedUrlQuery;ParsedUrlQueryInput;</node>
-            <node x="" y="">Component;</node>
-            <node x="" y="">react-dom</node>
-            <node x="" y="">AsyncCompleter;Completer;Interface;</node>
-            <node x="" y="">Pipe;Readable;Stream;Writable;</node>
-            <node x="" y="">URL;</node>
-            <node x="" y="">InspectOptions;</node>
-            <node x="" y="">Context;</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.4492172277178757" x="2288.0" y="2310.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
+          <caret column="56" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/sergej/Desktop/Learning/recme_project/recme/src/components;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers;">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/../recme/src/components;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers;</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/Group.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/Header.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Menu#113;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Profile#213;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Search#160;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#header.modules.css#263;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#logo#48;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/post/Post.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#cat_logo#63;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#comment_logo#163;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#likeOFF#115;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#post.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/posts/Posts.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#Post#104;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#article_logo#251;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#axios#47;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#comment_logo#356;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#likeOFF#151;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#link_logo#305;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#posts.modules.css#67;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#video_logo#198;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/right_menu/Right_menu.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Create_post#81;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Randomizer#151;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Trands#220;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#right_menu.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/avatar.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/comment-logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/create_post_ico.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#createpost_comp.modules.css#27;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#icon#88;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#img#140;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#logo#184;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/header.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/axios/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/likeOFF.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/ling_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/menu/menu.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#icon#76;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#icon2#122;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#menu.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/menu/menu.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/menu_icon.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/menu_icon_2.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/post/post.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/posts/posts.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/profile/profile.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/profile/profile.jsx#profile.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#Profile#83;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#avatar#141;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#profile_cont.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/r_cr_img.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/r_cr_logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/randomizer_comp.jsx#rand_comp.modules.css#27;</node>
-            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/right_menu/right_menu.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/search/search.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/search/search.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/search/search.jsx#search.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/search/search.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/text_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trand_item_comp.jsx#trand_item.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trands_comp.jsx#TrandItem#69;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trands_comp.jsx#trands_comp.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/video_logo.png</node>
-            <node x="" y="">Component;</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6649202826683696" x="851.0" y="678.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/sergej/Desktop/Learning/recme_project/recme/src">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/../recme/src</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/App.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/App.js#App.css#27;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#Header#55;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#Posts#108;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#R_menu#158;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.js#React#7;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/App.test.js#App#68;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.test.js#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/App.test.js#ReactDOM#34;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/Group.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/Header.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Menu#113;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Profile#213;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#Search#160;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#header.modules.css#263;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/Header.jsx#logo#48;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/post/Post.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#cat_logo#63;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#comment_logo#163;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#likeOFF#115;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/post/Post.jsx#post.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/posts/Posts.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#Post#104;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#article_logo#251;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#axios#47;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#comment_logo#356;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#likeOFF#151;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#link_logo#305;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#posts.modules.css#67;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/posts/Posts.jsx#video_logo#198;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/right_menu/Right_menu.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Create_post#81;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Randomizer#151;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#Trands#220;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/right_menu/Right_menu.jsx#right_menu.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/avatar.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/comment-logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/create_post_ico.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#createpost_comp.modules.css#27;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#icon#88;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#img#140;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/createpost_comp.jsx#logo#184;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/header.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/index.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/axios/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/index.js#App#90;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#ReactDOM#34;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#index.css#61;/Users/sergej/Desktop/Learning/recme_project/recme/src/index.js#serviceWorker#115;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/node_modules/react-dom/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/likeOFF.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/ling_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/menu/menu.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#icon#76;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#icon2#122;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/menu/menu.jsx#menu.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/menu/menu.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/menu_icon.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/menu_icon_2.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/post/post.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/posts/posts.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/profile/profile.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/profile/profile.jsx#profile.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#Profile#83;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#avatar#141;/Users/sergej/Desktop/Learning/recme_project/recme/src/containers/header/profile/profile.jsx#profile_cont.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/r_cr_img.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/r_cr_logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/randomizer_comp.jsx#rand_comp.modules.css#27;</node>
-            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/containers/right_menu/right_menu.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/search/search.jsx#Component#15;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/search/search.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/search/search.jsx#search.modules.css#40;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/search/search.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/serviceWorker.js</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/text_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trand_item_comp.jsx#trand_item.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.jsx#React#7;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trands_comp.jsx#TrandItem#69;/Users/sergej/Desktop/Learning/recme_project/recme/src/components/r_menucomp/trands_comp.jsx#trands_comp.modules.css#27;</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.modules.css</node>
-            <node x="" y="">$PROJECT_DIR$/../recme/src/assets/video_logo.png</node>
-            <node x="" y="">Component;</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9270991964169947" x="1045.0" y="817.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/comment_db">
+    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="48a89040-9828-4495-9c1a-a9bfd604b837">
-          <filtering>
-            <filter text="" />
-          </filtering>
+        <state projectRestartId="04381f09-8037-492a-9363-1bccda78258d">
+          <filtering />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/header/profile/profile_cont.modules.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/trands_comp.jsx" />
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/right_menu.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/trands.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/trands">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="48a89040-9828-4495-9c1a-a9bfd604b837">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.pug">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="04381f09-8037-492a-9363-1bccda78258d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="98" lean-forward="true" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-979" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/node_modules/react-redux/es/connect/connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/store/reducers/authorization/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/store/actions/actionTypes/authTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/components/menu/menu.modules.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item.modules.css">
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/header/profile/profile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_id/header/profile/profile.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="210">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#Like#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/node_modules/react-router/esm/react-router.js">
+    <entry file="file://$PROJECT_DIR$/../recme/src/store/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="722" column="3" selection-start-line="722" selection-start-column="3" selection-end-line="722" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/node_modules/react-router-dom/esm/react-router-dom.js">
+    <entry file="file://$PROJECT_DIR$/../recme/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4741">
+        <state relative-caret-position="301">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/menu/menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#197#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#222#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/search/search.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/header.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/profile/profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#171#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx">
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/search/search.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.jsx">
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/menu/menu.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-99">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="305" column="17" selection-start-line="305" selection-start-column="17" selection-end-line="305" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_4.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/components/post/post.modules.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="399">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_5.sql">
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.modules.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="72" selection-start-line="2" selection-end-line="2" selection-end-column="80" />
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_3.sql">
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="49" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/content_db">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="32adeb8e-ddb2-4684-80bc-8b1fb49a85b0">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="32adeb8e-ddb2-4684-80bc-8b1fb49a85b0">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
+    <entry file="file://$PROJECT_DIR$/../recme/src/store/actions/authorization/authaction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        <state relative-caret-position="525">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_8.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="82" column="17" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/components/post/Post.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+        <state relative-caret-position="1745">
+          <caret line="135" column="75" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="75" />
           <folding>
-            <element signature="e#30#69#0" expanded="true" />
-            <element signature="n#!!block;n#constructor#0;n#Like#0" />
-            <element signature="e#1225#1358#0" />
-            <element signature="e#1387#2245#0" />
-            <element signature="e#1571#1617#0" />
-            <element signature="e#1644#2079#0" />
-            <element signature="e#2113#2172#0" />
-            <element signature="e#2178#2238#0" />
-            <element signature="e#2271#3537#0" />
-            <element signature="e#2815#2874#0" />
-            <element signature="e#2809#2868#0" />
-            <element signature="e#3420#3479#0" />
-            <element signature="e#3906#4034#0" />
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#395#528#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="604">
+          <caret line="121" column="31" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
           <folding>
-            <marker date="1560111946740" expanded="true" signature="1673:1695" ph="..." />
+            <marker date="1560542621237" expanded="true" signature="1737:1759" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#CpPost#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/content_db">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="e2607b98-e20a-463a-acb1-882b31edc6bc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/auth/Auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="67" column="51" lean-forward="true" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!block;n#componentDidUpdate#0;n#RandomizerComp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
