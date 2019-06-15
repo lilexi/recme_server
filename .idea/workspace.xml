@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bd80f49-4011-4612-90c9-7f5e2667206b" name="Default Changelist" comment="recme &gt; add: r_menu, db /w axios on feed page and more simple changes">
+    <list default="true" id="7bd80f49-4011-4612-90c9-7f5e2667206b" name="Default Changelist" comment="recme &gt; add: create post, random post, profile render">
       <change afterPath="$PROJECT_DIR$/../recme/src/assets/avatar.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../recme/src/assets/comment-logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../recme/src/assets/create_post_ico.svg" afterDir="false" />
@@ -22,11 +22,8 @@
       <change afterPath="$PROJECT_DIR$/../recme/src/assets/text_logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../recme/src/assets/video_logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../recme/src/assets/video_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/containers/auth/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/store/actions/actionTypes/authTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/store/actions/authorization/authaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/store/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recme/src/store/reducers/authorization/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/commensts.modeles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/comments.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/babylon" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/cleancss" afterDir="false" />
@@ -5022,34 +5019,14 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/profile/profile.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/components/PostID/postID.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/PostID/postID.modules.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/r_menucomp/trand_item_comp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/components/search/search.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/components/search/search.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/header.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/header/header.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/header/profile/profile_cont.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.modules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5104,14 +5081,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.modules.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/comments.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/commensts.modeles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!block;n#componentDidUpdate#0;n#RandomizerComp#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -5138,17 +5208,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../recme/src/components/post/post.modules.css" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_2.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_4.sql" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_5.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_3.sql" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Post/Post_page.jsx" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_6.sql" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Post_id/Post/Post_page.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/components/PostID/postID.modules.css" />
         <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/right_menu.modules.css" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Post_id/postid_page.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/header/Header.jsx" />
@@ -5174,21 +5238,27 @@
         <option value="$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/create_post.modules.css" />
-        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_8.sql" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cr_post.modules.css" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql" />
         <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/createpost_comp.modules.css" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Create_post/cr_post/cp_post.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx" />
-        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx" />
         <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/PostID/postID.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/commensts.modeles.css" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/comments.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx" />
+        <option value="$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css" />
+        <option value="$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css" />
       </list>
     </option>
   </component>
@@ -5226,15 +5296,24 @@
               <item name="recme" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="main_page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="recme" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="main_page" type="462c0819:PsiDirectoryNode" />
+              <item name="right_menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="main_page" type="462c0819:PsiDirectoryNode" />
+              <item name="right_menu" type="462c0819:PsiDirectoryNode" />
+              <item name="Trand" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
@@ -5242,6 +5321,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Post_page_from_id" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Post_page_from_id" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -5360,7 +5447,7 @@
       <workItem from="1559916222325" duration="42132000" />
       <workItem from="1560095207918" duration="25656000" />
       <workItem from="1560433563777" duration="17593000" />
-      <workItem from="1560522286457" duration="28450000" />
+      <workItem from="1560522286457" duration="34768000" />
     </task>
     <task id="LOCAL-00001" summary="recme &gt; add: r_menu, db /w axios on feed page and more simple changes">
       <created>1559767762991</created>
@@ -5390,11 +5477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560118352956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="recme &gt; add: r_menu, db /w axios on feed page and more simple changes">
+      <created>1560552948917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560552948917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157088000" />
+    <option name="totallyTimeSpent" value="163406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5419,11 +5513,11 @@
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.31923464" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.38809523" side_tool="true" weight="0.36417556" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.5206445" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.519573" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.61190474" visible="true" weight="0.15776987" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.61190474" weight="0.15776987" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39976275" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -5503,11 +5597,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="recme &gt; add: r_menu, db /w axios on feed page and more simple changes" />
     <MESSAGE value="recme_server &gt; init" />
     <MESSAGE value="recme &gt; like, trands and simple changes" />
     <MESSAGE value="recme &gt; add: navigations and link | cr: create page &amp; post page" />
-    <option name="LAST_COMMIT_MESSAGE" value="recme &gt; add: navigations and link | cr: create page &amp; post page" />
+    <MESSAGE value="recme &gt; add: create post, random post, profile render" />
+    <MESSAGE value="recme_server &gt; add: db query" />
+    <option name="LAST_COMMIT_MESSAGE" value="recme &gt; add: create post, random post, profile render" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5521,46 +5616,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_7.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="04381f09-8037-492a-9363-1bccda78258d">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="04381f09-8037-492a-9363-1bccda78258d">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="98" lean-forward="true" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-979" />
@@ -5603,17 +5658,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/components/menu/menu.modules.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#Like#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/store/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -5699,27 +5743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/post/post.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/store/actions/authorization/authaction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -5775,24 +5798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/post/Post.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1745">
-          <caret line="135" column="75" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#395#528#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -5814,53 +5819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5904,10 +5862,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/post_page.modules.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/post/post.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/main_page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/post/Post.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#395#528#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/PostID/postID.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-908">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/Post/Post_page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/commensts.modeles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/comments/comments.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/Trands.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Right_menu.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -5916,21 +5997,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/randomizer_comp.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="56" />
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
           <folding>
             <element signature="n#!!block;n#componentDidUpdate#0;n#RandomizerComp#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/header/profile/profile.jsx">
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/right_menu/Trand/trands.modules.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/components/r_menucomp/rand_comp.modules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
         </state>
       </provider>
     </entry>
