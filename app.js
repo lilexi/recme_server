@@ -1,9 +1,9 @@
-var createError = require('http-errors');
-var express = require('express');
-var cors = require('cors');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const createError = require('http-errors');
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
 const bodyParser = require('body-parser');
 
 

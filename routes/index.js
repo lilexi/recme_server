@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var cors = require('cors');
-var app = express();
+const express = require('express');
+const router = express.Router();
+const cors = require('cors');
+const app = express();
 const bodyParser = require('body-parser');
 
 router.use(cors());
@@ -28,6 +28,87 @@ router.use(function (req, res, next) {
     next();
 });
 
+const CreateUsersFeed = () => {
+    return new Promise(((resolve, reject) => {
+        // let data = null;
+        let time = new Date();
+        console.log(time.getHours(), time.getMinutes(), time.getSeconds(), '[UPDATE] Databases: Users_feed');
+        connection.query("select users.id as 'userID', post_id as 'postID', cd.id_catigories as 'catID', cd.time_to_read as 'readTime', cd.hard_rating as 'rating' from users right join u_like ul on users.id = ul.u_id left join content_db cd on ul.post_id = cd.id order by cd.`like` desc;", function (err, res) {
+            // (err) ? console.log('error') : data = res;
+            if (err)
+                return reject(err);
+            else
+                return resolve(res);
+        });
+    }));
+};
+
+// setInterval(function () {
+//     CreateUsersFeed().then(res => {
+//         let categoryArray = [];
+//         console.log(res);
+//     }).catch(err => {
+//         console.log(err);
+//     });
+// }, 5000);
+
+CreateUsersFeed().then(res => {
+    const userCategories = {};
+    res.map(item => {
+        if (userCategories[item.userID]) {
+            const temp = userCategories[item.userID];
+            if (temp[item.catID]) {
+                const catItem = temp[item.catID];
+                catItem['count'] = catItem['count'] + 1;
+                catItem['s_time'] = Math.ceil((catItem['s_time'] * (catItem['count'] - 1) + item.readTime) / catItem['count']);
+                catItem['min_time'] = catItem['min_time'] > item.readTime ? item.readTime : catItem['min_time'];
+                catItem['max_time'] = catItem['max_time'] < item.readTime ? item.readTime : catItem['max_time'];
+                if (catItem['hard'][item.rating])
+                    catItem['hard'][item.rating] = catItem['hard'][item.rating] + 1;
+                else catItem['hard'][item.rating] = 1;
+            } else {
+                temp[item.catID] = {
+                    'count': 1,
+                    's_time': item.readTime,
+                    'min_time': item.readTime,
+                    'max_time': item.readTime,
+                    'hard': {
+                        [item.rating]: 1
+                    }
+                }
+            }
+        } else {
+            userCategories[item.userID] = {
+                'postID': [],
+                [item.catID]: {
+                    'count': 1,
+                    's_time': item.readTime,
+                    'min_time': item.readTime,
+                    'max_time': item.readTime,
+                    'hard': {[item.rating]: 1},
+                },
+            };
+        }
+        userCategories[item.userID]['postID'].push(item.postID);
+    });
+    console.log(userCategories);
+
+    /*for (let userID in userCategories){
+        console.log(userID);
+        for (let catID in userCategories[userID]){
+            /!*console.log(catID);
+            console.log(userCategories[userID][catID]);*!/
+            console.log(catID);
+            console.log(userCategories[userID][catID].count);
+        }
+    }*/
+
+
+
+}).catch(err => {
+    console.log(err);
+});
+
 app.use(cors());
 
 router.get('/posts', function (req, res) {
@@ -37,7 +118,7 @@ router.get('/posts', function (req, res) {
 });
 
 router.get('/trands', function (req, res) {
-    connection.query('SELECT c.id, c.cat_info, c.`like`, c.Title FROM recme.content_db c, recme.trands t where c.id = t.p_id', function (err, data) {
+    connection.query('SELECT c.id, c.cat_info, c.`like`, c.Title FROM recme.content_db c order by \`like\` desc limit 5 ', function (err, data) {
         (err) ? res.send(err) : res.json({trands: data});
     })
 });
@@ -92,12 +173,11 @@ router.post('/postsID', function (req, res) {
 });
 
 
-
 router.post('/signup', (req, res) => {
     connection.query(`INSERT into users (name, email, password) values (?)`, [req.body], function (err, data) {
         console.log(err);
         console.log(data);
-        (err) ? res.status(985)(err) : res.json({userID :data.insertId});
+        (err) ? res.status(985)(err) : res.json({userID: data.insertId});
     });
 });
 
