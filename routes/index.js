@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 // const time_inerval = 3600000;//60min
 const time_inerval = 300000; //5min
 // const time_interval = 60000; //1min
-// const time_interval = 10000;//10sec
+// const time_inerval = 10000;//10sec
 
 router.use(cors());
 const mysql = require('mysql');
@@ -121,7 +121,7 @@ setInterval(function () {
 
         for (let userID in userCategories) {
 
-            console.log('\n_________ uID', userID, ' _________');
+            console.log('\n_________   uID', userID, '  _________');
             const catInfo = userCategories[userID].catInfo;
             const uInfo = userCategories[userID].userInfo;
 
@@ -302,6 +302,7 @@ setInterval(function () {
                 //     }
                 // }, 1000);
             }
+            console.log('_________', '_________', '_________\n');
             // console.log('[UPDATE] Database: Temp');
         }
 

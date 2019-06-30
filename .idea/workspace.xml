@@ -4997,12 +4997,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/recme/recme_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/recme/recme_post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recme/src/containers/user_like/user_like_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../recme/src/containers/user_like/user_like_post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
@@ -5059,77 +5053,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="626">
+              <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
               <folding>
-                <element signature="e#1663#2244#0" />
-                <element signature="e#6394#7423#0" />
-                <element signature="e#9692#10482#0" />
-                <element signature="e#12349#12365#0" />
+                <element signature="e#12500#12516#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users_feed">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="4d8b1ce6-ab4d-4179-be28-411cfdde8014">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/temp">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="4d8b1ce6-ab4d-4179-be28-411cfdde8014">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3643d4b5-46ce-48eb-98df-0c32c8cabcf0/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mock://internal/async_hooks.js">
-          <provider selected="true" editor-type-id="vmFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mock://internal/inspector_async_hook.js">
-          <provider selected="true" editor-type-id="vmFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#Posts#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme_post.jsx">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -5140,13 +5077,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="4d8b1ce6-ab4d-4179-be28-411cfdde8014">
-              <filtering>
-                <filter text="" />
-              </filtering>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme_post.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2005">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -5177,7 +5115,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../recme" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -5280,50 +5218,6 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="recme" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recme" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recme" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recme" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="actionTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recme" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recme" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recme" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -5345,7 +5239,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -5447,7 +5341,9 @@
       <workItem from="1560522286457" duration="38664000" />
       <workItem from="1560715278281" duration="29000" />
       <workItem from="1560758729465" duration="20290000" />
-      <workItem from="1560842391931" duration="67943000" />
+      <workItem from="1560842391931" duration="68725000" />
+      <workItem from="1561078051998" duration="769000" />
+      <workItem from="1561410663391" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="recme &gt; add: r_menu, db /w axios on feed page and more simple changes">
       <created>1559767762991</created>
@@ -5505,11 +5401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560984288498</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="recme &gt; add: infinity scroll and fix rec_system">
+      <created>1561060861052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561060861052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255564000" />
+    <option name="totallyTimeSpent" value="257728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5522,12 +5425,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="DB Browser" order="0" weight="0.32967034" />
       <window_info id="Favorites" order="1" sideWeight="0.50217706" side_tool="true" weight="0.18498169" />
       <window_info id="npm" order="2" sideWeight="0.2802469" side_tool="true" weight="0.22202381" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.7197531" visible="true" weight="0.22202381" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.7197531" visible="true" weight="0.22202381" />
       <window_info id="Structure" order="4" sideWeight="0.5020576" side_tool="true" weight="0.18485238" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.6843712" weight="0.4954683" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
@@ -5538,7 +5440,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.61190474" visible="true" weight="0.3816717" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.61190474" weight="0.25579053" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -5643,13 +5545,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../recme/src/components/PostID/PostID.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/containers/Post_page_from_id/postid_page.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -5715,13 +5610,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -5793,16 +5681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="33" column="81" selection-start-line="33" selection-start-column="81" selection-end-line="33" selection-end-column="81" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -5885,17 +5763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#197#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -5960,27 +5827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#Posts#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme_post.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/posts.modules.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -5995,12 +5841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
+    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/temp">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4d8b1ce6-ab4d-4179-be28-411cfdde8014">
-          <filtering>
-            <filter text="" />
-          </filtering>
+        <state projectRestartId="df87b617-14da-485d-90f8-0e42e7a34bdc">
+          <filtering />
         </state>
       </provider>
     </entry>
@@ -6011,33 +5855,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/temp">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4d8b1ce6-ab4d-4179-be28-411cfdde8014">
-          <filtering>
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/main_page/posts/Posts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#Posts#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/users_feed">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4d8b1ce6-ab4d-4179-be28-411cfdde8014">
+        <state projectRestartId="df87b617-14da-485d-90f8-0e42e7a34bdc">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
+    <entry file="das://3643d4b5-46ce-48eb-98df-0c32c8cabcf0/schema/recme/table/u_like">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="df87b617-14da-485d-90f8-0e42e7a34bdc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#197#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="626">
+          <caret line="217" column="45" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
           <folding>
-            <element signature="e#1663#2244#0" />
-            <element signature="e#6394#7423#0" />
-            <element signature="e#9692#10482#0" />
-            <element signature="e#12349#12365#0" />
+            <element signature="e#12500#12516#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../recme/src/containers/recme/recme_post.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2005">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
